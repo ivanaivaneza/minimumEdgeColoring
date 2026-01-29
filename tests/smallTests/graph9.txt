@@ -1,4 +1,4 @@
-p edge 9 9
+p edge 9 8
 e 1 2
 e 1 4
 e 2 4

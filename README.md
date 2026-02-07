@@ -2,7 +2,7 @@
 
 # Project overview
 
-This project focuses on finding minimum number of edge colors so no two adjacent edges have the same color. This problem implies on simple graphs, but we've also included others: complete, bipartite, regular.
+This project focuses on finding minimum number of edge colors so no two adjacent edges have the same color. This problem applies to simple graphs, but we've also included others: complete, bipartite, regular.
 
 # Problem definition
 
@@ -10,9 +10,9 @@ Color the edges of Graph G(V,E) with minimum number of colors so no two adjacent
 
 # Optimization techniques
 
-Every technique has multiple number of variations:
+Every technique has multiple number of combinations:
 
-1. VNS - Variable Neighborhood Search<br>
+1. VNS - Variable Neighborhood Search `vns.ipynb` `vnsExperimental.ipynb`<br> 
     Local searches <br>
         &emsp;1. First <br>
         &emsp;2. Best <br>
@@ -22,11 +22,22 @@ Every technique has multiple number of variations:
         &emsp;2. Swap <br>
         &emsp;3. Neighbour <br>
         &emsp;4. Conflict <br>
-2. GA - Genetic Algorithm<br>
-    Selection <br>
-    Crossover <br>
-    Mutation <br>
-3. GA + LS - Genetic Algorithm + Local Search
+2. GA - Genetic Algorithm `ga.ipynb`<br>  
+    Selections <br>
+        &emsp;1. Tournament <br>
+        &emsp;2. Roulette <br>
+        &emsp;3. Rank <br>
+    Crossovers <br>
+        &emsp;1. Single Point <br>
+        &emsp;2. Two Point <br>
+        &emsp;3. Uniform <br>
+
+    Mutations <br>
+        &emsp;1. Random <br>
+        &emsp;2. Smart <br>
+        &emsp;3. Conflict <br>
+
+3. GA + LS - Genetic Algorithm + Local Search `gaExperimentalLOCALSEARCH.ipynb`
 
 Exact solver - CPLEX
 #
